@@ -1,0 +1,69 @@
+body {
+    background-color: #eff0f1; /* Light gray background */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+   
+}
+
+/* Apply styles to table headers */
+th {
+    background-color: #03396c; /* Light gray background */
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #b3cde0; /* Bottom border */
+    color: #fff; /* Set the text color to white */
+}
+
+/* Apply alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #6497b1;#b3cde0 /* Lighter gray background for even rows */
+}
+
+/* Apply styles to table cells */
+td {
+    padding: 8px;
+    border-bottom: 1px solid #011f4b; /* Bottom border */
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #b3cde0; /* Light gray background on hover */
+}
+
+header {
+    background-color: #011f4b; /* Set the background color of the header */
+    padding: 20px; /* Add padding to create space around the content */
+    color: #fff; /* Set the text color to white */
+}
+
+/* Style the h1 element */
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Adjust font size */
+}
+
+/* Style the navigation menu */
+header nav ul {
+    list-style-type: none; /* Remove default list styles */
+}
+
+header nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+/* Style the navigation links */
+header nav ul li a {
+    color: #fff; /* Set link text color to white */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    background-color: #6497b1; /* Set the background color of the header */
+    color: #011f4b; /* Set the text color to white */
+}

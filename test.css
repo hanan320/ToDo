@@ -1,0 +1,45 @@
+/* Base color */
+body {
+    background-color: #FFFFFF; /* White background */
+    color: #333333; /* Dark gray text color */
+}
+
+header {
+    background-color: #000080; /* Navy blue background */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Navigation links */
+header nav ul li a {
+    color: #FFFFFF; /* White text color */
+}
+
+/* Hover effect for navigation links */
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #336699; /* Lighter shade of blue */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #000080; /* Navy blue background on hover */
+}
+
+/* Additional elements */
+.card {
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #333333; /* Dark gray border */
+}
+
+.card-title {
+    color: #000080; /* Navy blue text color */
+}
+
+.card-content {
+    color: #333333; /* Dark gray text color */
+}
