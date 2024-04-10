@@ -11,18 +11,15 @@ function askQuestions() {
        
         while(flag)
        {   
-        if (answer == null||answer == ""||answer == " ")
+        if (answer == null||answer == ""||answer == " "||(answer !== "yes" && answer !== "no"))
          {
             answer="invaled";
             flag=false;
          }
-        else if (answer !== "yes" && answer !== "no")
-         {
-            answer = prompt("Please enter a valid response for " + question + " (Yes/No)");
-            flag=false;
-         }
+         
         else  
         flag = false; 
+
         }
        answers.push(answer);  
        }
